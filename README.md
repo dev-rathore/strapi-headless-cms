@@ -3,7 +3,11 @@
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
 ### Node Version
-20.13.1
+`20.13.1`
+
+### Environment Variables Required
+- `HOST`, `PORT`, `APP_KEYS`, `API_TOKEN_SALT`, `ADMIN_JWT_SECRET`, `TRANSFER_TOKEN_SALT`
+- `DATABASE_CLIENT`, `DATABASE_FILENAME`, `JWT_SECRET`
 
 ### `develop`
 
